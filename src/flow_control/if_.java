@@ -11,11 +11,11 @@ public static void main(String[] args) {
 //		System.out.println("yes2");
 //		System.out.println("yes3"+"\n");
 //	}
-//	if(b)      //²»¼Ó¡°{}¡°ÖÇ»Û½«ÏÂÃæµÄÒ»ÐÐ±í´ïÊ½ÊÓÎªÓÉif¿ØÖÆ
+//	if(b)      //ï¿½ï¿½ï¿½Ó¡ï¿½{}ï¿½ï¿½ï¿½Ç»Û½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ð±ï¿½ï¿½Ê½ï¿½ï¿½Îªï¿½ï¿½ifï¿½ï¿½ï¿½ï¿½
 //		System.out.println("yes1");
 //	System.out.println("yes2");
 //	System.out.println("yes3"+"\n");
-//	if(b);{           //";"Ò²»á±»ÊÓÎªÒ»ÐÐ±í´ïÊ½£¬Ïàµ±ÓÚifÖ»¿ØÖÆÁË";"Ò»ÐÐ±í´ïÊ½
+//	if(b);{           //";"Ò²ï¿½á±»ï¿½ï¿½ÎªÒ»ï¿½Ð±ï¿½ï¿½Ê½ï¿½ï¿½ï¿½àµ±ï¿½ï¿½ifÖ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";"Ò»ï¿½Ð±ï¿½ï¿½Ê½
 //		System.out.println("yes1");
 //		System.out.println("yes2");
 //		System.out.println("yes3"+"\n");
@@ -43,48 +43,48 @@ public static void main(String[] args) {
 //	else if(i==2) {
 //		System.out.println("i=2");
 //	}
-//	else if(i==3) {     //ºóÃæµÄ±í´ïÊ½²»»áÖ´ÐÐ
+//	else if(i==3) {     //ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½
 //		System.out.println("i=3");
 //	}
 //	
 	
 	
 //		Scanner s=new Scanner(System.in);
-//		System.out.println("ÇëÊäÈëÉí¸ß(m)£º");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(m)ï¿½ï¿½");
 //		float Height=s.nextFloat();
-//		System.out.println("ÇëÊäÈëÌåÖØ(kg):");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(kg):");
 //		float Weight=s.nextFloat();
 //		float BMI=Weight/(Height*Height);
-//		System.out.println("¸ÃÍ¬Ñ§µÄBMIÖ¸ÊýÎª£º"+BMI+",");
+//		System.out.println("ï¿½ï¿½Í¬Ñ§ï¿½ï¿½BMIÖ¸ï¿½ï¿½Îªï¿½ï¿½"+BMI+",");
 //		if(BMI<18.5) {
-//			System.out.println("ÌåÖØ¹ýÇá");
+//			System.out.println("ï¿½ï¿½ï¿½Ø¹ï¿½ï¿½ï¿½");
 //		}
 //		else if(18.5<=BMI & BMI<24) {
-//			System.out.println("ÌåÖØÔÚÕý³£·¶Î§");
+//			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î§");
 //		}
 //		else if(24<=BMI&BMI<27) {
-//			System.out.println("ÌåÖØ¹ýÖØ");
+//			System.out.println("ï¿½ï¿½ï¿½Ø¹ï¿½ï¿½ï¿½");
 //		}
 //		else if(27<=BMI&BMI<30) {
-//			System.out.println("Çá¶È·ÊÅÖ");
+//			System.out.println("ï¿½ï¿½È·ï¿½ï¿½ï¿½");
 //		}
 //		else if(30<=BMI & BMI<35) {
-//			System.out.println("ÖÐ¶È·ÊÅÖ");
+//			System.out.println("ï¿½Ð¶È·ï¿½ï¿½ï¿½");
 //		}
 //		else if(35<=BMI) {
-//			System.out.println("ÖØ¶È·ÊÅÖ");
+//			System.out.println("ï¿½Ø¶È·ï¿½ï¿½ï¿½");
 //		}
 
 	
 	Scanner s=new Scanner(System.in);
-	System.out.println("ÇëÊäÈëÒ»¸öÄê·Ý£º");
+	System.out.println("è¯·è¾“å…¥ä¸€ä¸ªå¹´ä»½ï¼š");
 	int year=s.nextInt();
-	if(year%4==0 & year%100!=0) {     //¿ÉÒÔÖ±½Ó(year%4==0&&year%100!=0)||year%400==0
-		System.out.println("¸ÃÄêÊÇÈòÄê");
+	if(year%4==0 & year%100!=0) {     //ä¹Ÿå¯ä»¥æ”¹ä¸º(year%4==0&&year%100!=0)||year%400==0
+		System.out.println("è¯¥å¹´æ˜¯é—°å¹´");
 	}
 	else if(year%400==0) {
-		System.out.println("¸ÃÄêÊÇÈòÄê");
+		System.out.println("è¯¥å¹´ä¸æ˜¯é—°å¹´");
 	}
-	else{System.out.println("¸ÃÄê²»ÊÇÈòÄê");}
+	else{System.out.println("è¯¥å¹´ä¸æ˜¯é—°å¹´");}
 }
 }
