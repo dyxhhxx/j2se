@@ -17,6 +17,9 @@ package Class_Objects;
             System.out.println(name+"攻击了"+heros[i].name);
         }
     }
+    public void effect(){
+        System.out.println("回血");
+    }
 
     public static void main(String[] args) {
         ADHero mf=new ADHero();
@@ -28,5 +31,6 @@ package Class_Objects;
         mf.attack();
         mf.attack(h1);
         mf.attack(h1,h2);      //重载优先级：先匹配参数个数，再匹配最佳的参数类型
+        mf.effect();
     }
 }

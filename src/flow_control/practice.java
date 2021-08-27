@@ -47,25 +47,25 @@ public class practice {
 //        System.out.println("这两个数分别是:"+finali+","+finalj+"，他们的除数为："+(float)finali/finalj);
 
         //水仙花数：一定是3位数；每一位的立方之和为这个数本身。
-//        for(int i=100;i<=999;i++){
-//            int a=i/100;
-//            int b=i/10%10;
-//            int c=i%10;
-//            if(Math.pow(a,3)+Math.pow(b,3)+Math.pow(c,3)==i){
-//                System.out.println(i);
-//            }
+        for(int i=100;i<=999;i++){
+            int a=i/100;
+            int b=i/10%10;
+            int c=i%10;
+            if(Math.pow(a,3)+Math.pow(b,3)+Math.pow(c,3)==i){
+                System.out.println(i);
+            }
 
         //小学算术题
-        for(int a=0;a<9;a++){
-            for(int b=0;b<9;b++){
-                for(int c=1;c<14;c++){
-                    for(int d=0;d<10;d++){
-                        if(a+b==8&&a+c==14&&b+d==10&&c-d==6){
-                            System.out.println("a,b,c,d分别为"+a+" "+b+" "+c+" "+d);
-                        }
-                    }
-                }
-            }
+//        for(int a=0;a<9;a++){
+//            for(int b=0;b<9;b++){
+//                for(int c=1;c<14;c++){
+//                    for(int d=0;d<10;d++){
+//                        if(a+b==8&&a+c==14&&b+d==10&&c-d==6){
+//                            System.out.println("a,b,c,d分别为"+a+" "+b+" "+c+" "+d);
+//                        }
+//                    }
+//                }
+//            }
         }
         }
 }
