@@ -25,6 +25,5 @@ public class array_create {
             }
         }
         System.out.println("这个数组的最小值为:"+j);
-
     }
 }

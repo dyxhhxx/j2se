@@ -1,7 +1,7 @@
 //方法的重载
 package Class_Objects;
 
-public class ADHero extends Hero{
+   public class ADHero extends Hero{
     //下面都是attack方法，方法名相同，但参数类型不同（方法的重载-overload）
     public void attack(){
         System.out.println(name+"攻击了一名英雄");
