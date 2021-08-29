@@ -1,5 +1,6 @@
 package digit;
 
+//字符串与数字之间的相互转换
 public class Conversion {
     public static void main(String[] args) {
 
@@ -28,5 +29,9 @@ public class Conversion {
         //字符串3.14转化为浮点数
         float i2=Float.parseFloat(j);
         System.out.println(i2);
+        //字符串中有非数字,用Float的parseFloat静态方法会报错
+//        String str0="3.1a4";
+//        float i0=Float.parseFloat(str0);
+//        System.out.println(i0);
     }
 }
