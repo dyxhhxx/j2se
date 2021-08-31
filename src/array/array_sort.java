@@ -32,15 +32,15 @@ public class array_sort {
 
         //冒泡法排序；比较第一位和第二位元素，将较大的元素放在后一位，直至将大的元素放到最后一位。以此类推，使第二大的元素到倒数第二位...
         //从大到小
-        for(int i=a.length-1;i>0;i--){
-            for(int j=0;j<a.length-1;j++){
-                if(a[j]<a[j+1]){
-                    int x=a[j];
-                    a[j]=a[j+1];
-                    a[j+1]=x;
-                }
-            }
-        }
+       for(int i0=0;i0<a.length;i0++){
+           for(int i=0;i<a.length-1-i0;i++){
+               if(a[i]>a[i+1]){
+                   int temp=a[i];
+                   a[i]=temp;
+                   a[i+1]=temp;
+               }
+           }
+       }
         for(int i=0;i<5;i++){
             System.out.println(a[i]);
         }
