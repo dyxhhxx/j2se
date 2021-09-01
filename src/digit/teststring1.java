@@ -68,11 +68,5 @@ public class teststring1 {
             System.out.println(StrA[i]);
         }
 
-
-        //穷举法破解密码：生成一个长度是3的随机字符串，使用穷举法生成长度是3的字符串，匹配之前生成的代码
-
-
-
-
     }
 }
