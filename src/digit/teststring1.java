@@ -3,6 +3,31 @@ package digit;
 import static java.lang.Character.getType;
 
 public class teststring1 {
+
+    //构造一个静态方法randomString以获取随机字符串
+    public static String randomString(int length){
+        String randomStr="";
+        for(int i='0';i<='9';i++){
+            char tempchar=(char)i;
+            randomStr+=tempchar;
+        }
+        for(int i='A';i<='Z';i++){
+            char tempchar=(char)i;
+            randomStr+=tempchar;
+        }
+        for(int i='a';i<='z';i++){
+            char tempchar=(char)i;
+            randomStr+=tempchar;
+        }
+        char[] Str=new char[length];
+        for(int i=0;i<length;i++){
+//            Str[i]=randomStr[(int)(Math.random()*(randomStr.length()))];
+
+        }
+        return randomStr;
+    }
+
+
     public static void main(String[] args) {
 
         //练习2：创建一个长度是8的字符串数组，使用8个长度是5的随机字符串初始化这个数组。对这个数组进行排序，按照每个字符串
@@ -42,6 +67,11 @@ public class teststring1 {
         for(int i=0;i<StrA.length;i++){
             System.out.println(StrA[i]);
         }
+
+
+        //穷举法破解密码：生成一个长度是3的随机字符串，使用穷举法生成长度是3的字符串，匹配之前生成的代码
+
+
 
 
     }
