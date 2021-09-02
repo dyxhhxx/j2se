@@ -23,7 +23,7 @@ public class teststring {
 
 
         //操纵字符串
-        String sentence=" 盖伦，在进行了连续的8次击杀后，获得了 超神 的称号 ";
+        String sentence=" Garen，在进行了连续的8次击杀后，获得了 超神 的称号 ";
         System.out.println(sentence);
         //charAt(int index)获得指定位置的字符
         System.out.println(sentence.charAt(3));
@@ -42,7 +42,7 @@ public class teststring {
         System.out.println(sentence.toUpperCase());
         //indexOf判断字符或者子字符串出现的位置
         System.out.println(sentence.indexOf('8'));
-        System.out.println(sentence.indexOf("超神"));
+        System.out.println(sentence.indexOf("\n"+"超神"+"\n"));
         System.out.println(sentence.lastIndexOf('了'));
         System.out.println(sentence.indexOf(',',5));
         //contains是否包含子字符串
