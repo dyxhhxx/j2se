@@ -20,6 +20,7 @@ public class teststringbuffer {
 
         String sumstring="";
         StringBuffer sumstringbuffer=new StringBuffer(sumstring);
+
         long time1,time2,time3;
         time1=System.currentTimeMillis();
         for(int i=0;i<10000;i++){
