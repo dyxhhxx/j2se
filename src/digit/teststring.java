@@ -53,5 +53,23 @@ public class teststring {
         //replaceFirst只替换第一个
         System.out.println(sentence.replaceFirst(",","."));
 
+
+        //比较字符串
+        String str1="never say never";
+        String str2=new String(str1);
+        String str3="never say never";
+        System.out.println(str1==str2);  //false
+        System.out.println(str1==str3);  //true;编译器发现现成的就会拿来用，不会进行重复创建
+        String str4=str1.toUpperCase();
+        //equals()判断字符串内容是否相同，equalsIgnoreCase()判断字符串的内容是否相同且忽略大小写
+        System.out.println(str1.equals(str2));
+        System.out.println(str1.equals(str3));
+        System.out.println(str1.equals(str4));
+        System.out.println(str1.equalsIgnoreCase(str4));
+        //startwith和endwith判断字符串是否已子字符串开始或结束
+        String str5="never";
+        System.out.println(str1.startsWith(str5));
+        System.out.println(str1.endsWith(str5));
+
     }
 }

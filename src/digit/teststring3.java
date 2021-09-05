@@ -75,16 +75,18 @@ public class teststring3 {
 
         //把最后一个two单词首字母大写
         String body="two eyes, two feet, one neck, two hands";
-        String[] temp5=body.split(" ");
-        String[] temp6=reverseString(temp5);
-        String body1=exstrarray(temp6);
-        String body2=body1.replaceFirst("two","Two");
-        String[] temp7=body2.split(" ");
-        String[] temp8=reverseString(temp7);
-        String body3=exstrarray(temp8);
-        System.out.println(body+"\n"+body3);
 
+        //构造函数
+//        String[] temp5=body.split(" ");
+//        String[] temp6=reverseString(temp5);
+//        String body1=exstrarray(temp6);
+//        String body2=body1.replaceFirst("two","Two");
+//        String[] temp7=body2.split(" ");
+//        String[] temp8=reverseString(temp7);
+//        String body3=exstrarray(temp8);
+//        System.out.println(body+"\n"+body3);
 
+        //直接写
 //        String[] temp6=new String[temp5.length];
 //        String body1="";
 //        for(int i=0;i<temp5.length;i++){
@@ -107,5 +109,16 @@ public class teststring3 {
 //            body3+=temp8[i]+" ";
 //        }
 //        System.out.println("body3:"+body3);
+
+        //简化方法
+        int index=body.lastIndexOf("two");
+        System.out.println(index);
+        char[] cs=body.toCharArray();
+        cs[index]=Character.toUpperCase(cs[index]);
+        String result=new String(cs);
+        System.out.println(result);
+
+
+
     }
 }

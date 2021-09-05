@@ -7,25 +7,26 @@ public class teststring1 {
 
     //构造一个静态方法randomString以获取随机字符串
     public static String randomString(int length){
-        String randomStr="";
+        String randomStr1="";
         for(int i='0';i<='9';i++){
             char tempchar=(char)i;
-            randomStr+=tempchar;
+            randomStr1+=tempchar;
         }
         for(int i='A';i<='Z';i++){
             char tempchar=(char)i;
-            randomStr+=tempchar;
+            randomStr1+=tempchar;
         }
         for(int i='a';i<='z';i++){
             char tempchar=(char)i;
-            randomStr+=tempchar;
+            randomStr1+=tempchar;
         }
         char[] Str=new char[length];
+        char[] randomchar=randomStr1.toCharArray();
         for(int i=0;i<length;i++){
-//            Str[i]=randomStr[(int)(Math.random()*(randomStr.length()))];
+            Str[i]=randomchar[(int)(Math.random()*(randomStr1.length()))];
 
         }
-        return randomStr;
+        return new String(Str);
     }
 
 
